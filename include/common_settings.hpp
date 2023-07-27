@@ -43,6 +43,7 @@ struct TopicType{\
 
     //It is FrameId
     //it use in joystic_params.
+    // Stew: Should be inline. Should use compile time string class.
     const std::string 
         normal_mode = "normal_mode",
         aiming_mode = "aiming_mode"
